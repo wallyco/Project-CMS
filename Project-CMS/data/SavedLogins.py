@@ -1,9 +1,9 @@
 # josh is a sample student, and idlist and studentlist are populated with sample testable entries
 from resources.Student import Student
 
-josh = Student("josh", "1", "csc130")
+josh = Student("josh", "1", ["csc130"])
 hunter = Student("hunter", "2")
-hagar = Student("hagar", "3", ("csc130", "test")) #TODO This fails at StudentData Constructor's sourceCollection
+hagar = Student("hagar", "3", ["csc130", "test"])
 
 
 # IDList is a dict with items structured {"ID number": "Password"}

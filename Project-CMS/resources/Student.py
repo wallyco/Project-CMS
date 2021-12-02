@@ -1,4 +1,4 @@
-from data.StudentData import StudentData, ListSet
+from data.StudentData import StudentData
 
 
 class Student:
@@ -6,7 +6,7 @@ class Student:
     def __init__(self, name=None, id=None, course=None):
         self.name = name
         self.id = id
-        self.data = ListSet(course)
+        self.data = StudentData(course)
 
     def getName(self):
         return self.name
