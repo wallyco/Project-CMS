@@ -1,4 +1,3 @@
-from resources import Login
 from resources.Login import login
 from resources.Menu import menu
 
